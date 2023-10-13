@@ -6,8 +6,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt #import pyplot dari matplotlib
 
 
-day_df = pd.read_csv('dashboard/clean_day.csv')
-hour_df = pd.read_csv('dashboard/clean_hour.csv')
+day_df = pd.read_csv('clean_day.csv')
+hour_df = pd.read_csv('clean_hour.csv')
 
 st.title('Data Analytics Project : Bike Sharing')
 
